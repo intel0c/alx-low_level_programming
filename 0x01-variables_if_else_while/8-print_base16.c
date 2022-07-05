@@ -2,7 +2,7 @@
 
 /**
  * main - prints hexadecimal base 0123456789abcdef, using putchar
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
