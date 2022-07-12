@@ -19,3 +19,10 @@ void swap_int(int *a, int *b);
  */
 
 int _strlen(char *s);
+
+/**
+ * _puts -prints a string, followed by a new line, to stdout
+ * @s: string to reverse
+ */
+
+void _puts(char *str);
