@@ -47,3 +47,42 @@ void print_rev(char *s);
  */
 
 void rev_string(char *s);
+
+/**
+ * puts2 - print every other character of a string, starting with the first character, followed by a new line.
+ * @str: string to print
+ */
+
+void puts2(char *str);
+
+/**
+ * puts_half - print half of a string followed by a new line
+ * @str: string to print
+ */
+
+void puts_half(char *str);
+
+/**
+ * print_array - prints n elements of an array of integers, followed by a new line
+ * @a: array
+ * @n: number of elements
+*/
+
+void print_array(int *a, int n);
+
+/**
+* _strcpy - copies the string pointed to by src, including the terminating null byte (\0),
+* to the buffer pointed to by dest
+* @dest: copy source to this buffer
+* @src: this is the source to copy
+*/
+
+char *_strcpy(char *dest, char *src);
+
+/**
+ * _atoi - convert string to int
+ * @s: string to convert
+ * Return: integer
+ */
+
+int _atoi(char *s);
